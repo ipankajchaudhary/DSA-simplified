@@ -28,7 +28,7 @@ int main()
     scan(arr, n);
     cout << arr[n - 1] << " ";
     int x = arr[n - 1];
-    for (int i = n - 2; i >= 0;i++)
+    for (int i = n - 2; i >= 0;i--)
     {
         if(arr[i]>x)
         {
