@@ -1,4 +1,4 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 void scan(int A[], int n)
@@ -24,6 +24,7 @@ int main()
     cin >> x;
     scan(a, n);
     bool flag = false;
+    sort(a, a + n);
     int low = 0, high = n - 1;
     while (low <= high)
     {
