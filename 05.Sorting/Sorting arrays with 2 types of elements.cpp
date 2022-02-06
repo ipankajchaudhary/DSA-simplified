@@ -42,6 +42,7 @@ int main()
     cin >> n;
     int arr[n];
     scan(arr, n);
+    sort2types(arr, n);
     print(arr, n);
 
     return 0;
