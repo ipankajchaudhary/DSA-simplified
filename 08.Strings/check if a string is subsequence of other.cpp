@@ -15,16 +15,20 @@ void print(int A[], int n)
         cout << A[i] << ' ';
     }
 }
-bool check(string s)
-{
-    string rev = s;
-    reverse(rev.begin(), rev.end());
-    return rev == s;
-}
 int main()
 {
-    string s;
-    cin >> s;
-    cout << check(s);
+    string s, t;
+    cin >> s >> t;
+    int i = 0, j = 0;
+    while (i<s.length() && j<t.length())
+    {
+        if(s[i] == t[j])
+        {
+            j++;
+        }
+        i++;
+    }
+    (j == t.length()) ? cout << "YES" :
+                             cout<< "NO";
     return 0;
 }
