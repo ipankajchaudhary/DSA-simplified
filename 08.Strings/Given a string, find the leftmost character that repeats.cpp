@@ -18,21 +18,21 @@ void print(int A[], int n)
 int main()
 {
     string s;
-    cin>>s;
-    int count[256] = {0};
-    for (int i = 0; i < s.length(); i++)
+    cin >> s;
+    int INDEX[256];
+    fill(INDEX, INDEX + 256, -1);
+    int res = INT_MAX;
+    for (int i = 0; i < s.length();i++)
     {
-        count[s[i]]++;
-    }
-    for (int i = 0; i < s.length(); i++)
-    {
-        if(count[s[i]] == 1)
+        int f = INDEX[s[i]];
+        if(f == -1)
         {
-            cout << i;
-            break;
+            INDEX[s[i]] = i;
+        }
+        else{
+            res = min(res, f);
         }
     }
-    cout << "-1";
-
+    cout << (res == INT_MAX ? -1 : res);
     return 0;
 }
