@@ -24,7 +24,7 @@ int main()
     for (int i = 0; i < n - m + 1;)
     {
         int j = 0;
-        for (; j < m; j++)
+        for (; j < m; j++) 
         {
             if (t[i + j] != p[j])
             {
