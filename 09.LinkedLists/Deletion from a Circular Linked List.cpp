@@ -10,7 +10,7 @@ Node *delHead(Node *head)
     {
         delete head;
         return NULL;
-    }
+    }f
     else{
         head->data = head->next->data;
         Node *temp = head->next;
