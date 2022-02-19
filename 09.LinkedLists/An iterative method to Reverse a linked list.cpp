@@ -1,7 +1,5 @@
 Node *reverseList(struct Node *head)
 {
-    // code here
-    // return head of reversed list
     Node *curr = head;
     Node *prev = NULL;
     while (curr)
