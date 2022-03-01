@@ -14,8 +14,4 @@ vector<int> leftSmaller(int n, int a[]){
             s.push(a[i]);
         }
         return v;
-<<<<<<< HEAD
     }
-=======
-    }
->>>>>>> 929f53bf89c3f0c098beb7648b20d1a192ec35e2
