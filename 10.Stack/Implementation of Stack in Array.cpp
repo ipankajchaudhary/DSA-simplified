@@ -9,8 +9,6 @@ public:
     void push(int);
 };
 
-
-
 void MyStack :: push(int x)
 {
     top++;
