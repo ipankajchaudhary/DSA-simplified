@@ -1,5 +1,4 @@
 queue<int> modifyQueue(queue<int> q, int k) {
-    // add code here.
     stack<int> s;
     int n = q.size();
     int x = n-k;
@@ -15,8 +14,6 @@ queue<int> modifyQueue(queue<int> q, int k) {
     }
     if(n == k) return q;
     else{
-        
-        
         while(x>0)
         {
             q.push(q.front());
