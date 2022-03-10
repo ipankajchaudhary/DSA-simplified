@@ -21,7 +21,7 @@ vector <int> max_of_subarrays(int *arr, int n, int k)
             {
                 dq.pop_back();
             }
-            dq.push_back(i);
+            dq.push_back(i);    
         }
         v.push_back(arr[dq.front()]);
         return v;
