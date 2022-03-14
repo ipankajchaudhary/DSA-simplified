@@ -1,23 +1,21 @@
-    vector<vector<int>> levelOrder(TreeNode* root) {
-        if(!root) return {};
+vector<double> averageOfLevels(TreeNode* root) {
         queue<TreeNode *> q;
-        vector<vector<int>>ans;
+        vector<double>ans;
         q.push(root);
         while(!q.empty())
         {
-           vector<int>s;
+            long long int s = 0;
             long long int x = q.size();
             for(int i = 0;i<x;i++)
             {
                 TreeNode *curr = q.front();
                 q.pop();
-                
-                s.push_back(curr->val);
+                s+=curr->val;
                 if(curr->left) q.push(curr->left);
                 if(curr->right) q.push(curr->right);
             }
-            ans.push_back(s);
+            double d = (double)(double(s)/double(x));
+            ans.push_back(d);
         }
         return ans;
-    
     }
