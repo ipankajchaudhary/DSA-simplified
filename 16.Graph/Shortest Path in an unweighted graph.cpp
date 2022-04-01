@@ -4,6 +4,7 @@ vector<int> shortestpath(vector<int> adj[], int s, int V){
     queue<int> q;
     q.push(s);
     dist[s] = 0;
+    visited[s] = true;
     while (!q.empty())
     {
         int u = q.front();
