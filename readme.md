@@ -32,4 +32,7 @@ A collection of standard DSA question
 
 ## Graph
 
-## Gready
+## Greedy
+
+## Dynamic Programming
+
