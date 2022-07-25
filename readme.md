@@ -65,3 +65,14 @@ A collection of standard DSA question
   - [Coin Change 2](https://choosealicense.com/licenses/mit/)
   - [Unbounded Knapsack 1 D array](https://choosealicense.com/licenses/mit/)
   - [Rod Cutting 1 D array](https://choosealicense.com/licenses/mit/)
+
+- #### DP on STRINGS
+  - [Print length of LCS](https://choosealicense.com/licenses/mit/)
+  - [Print LCS](https://choosealicense.com/licenses/mit/)
+  - [Print Longest Palindromic Subsequence](https://choosealicense.com/licenses/mit/)
+  - [Minimum Insertions to make string palindrome](https://choosealicense.com/licenses/mit/)
+  - [Minimum Insertions/Deletions to make string A => b](https://choosealicense.com/licenses/mit/)
+  - [Shortest Common Supersequence](https://choosealicense.com/licenses/mit/)
+  - [Distinct Subsequence](https://choosealicense.com/licenses/mit/)
+  - [Edit Distance](https://choosealicense.com/licenses/mit/)
+  - [Wild Card Matching](https://choosealicense.com/licenses/mit/)
