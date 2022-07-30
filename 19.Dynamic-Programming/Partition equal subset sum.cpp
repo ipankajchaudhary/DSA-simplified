@@ -49,7 +49,7 @@ public:
             }
         }
         return dp[n-1][sum];
-    }.
+    }
     bool canPartition(vector<int>& nums) {
         int sum = 0;
         for(auto e:nums){
